@@ -1,11 +1,12 @@
 <template>
   <header>
     <nav
-      class="bg-blue-700 text-white flex justify-between items-center p-2 shadow-lg z-10 relative"
+      class="bg-app-purple text-white flex justify-around items-center p-2 shadow-lg z-10 relative"
     >
       <!-- Logo -->
       <div class="flex items-center">
-        <img src="@/assets/img/dtic1.png" alt="Logo" class="w-50 h-16" />
+       <i class="pi pi-lock"></i>
+       <span class="mx-5">Password Generator</span>
       </div>
       <!-- Menu Hamburguer -->
       <button class="block focus:outline-none pr-5" @click="visible = true">

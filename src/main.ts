@@ -1,6 +1,6 @@
 import './assets/global.css'
 import 'primeicons/primeicons.css'
-import 'primevue/resources/themes/aura-light-blue/theme.css' 
+import 'primevue/resources/themes/aura-light-purple/theme.css' 
 // * Tema da aplicação, acesse o node_modules @primevue para ver mais.
 // * Deixar o tema sempre por último, para que não cause conflito entre outros estilos.
 import { createApp } from 'vue'
